@@ -1,33 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
-  <title id="t">Aditya Mitter</title>
-  <desc id="d">Rings spread from a point, bounce off a curved surface and return as an echo. Next to them: Aditya Mitter, software that measures the physical world, then shows where it fails.</desc>
-  <style>
-    .ring{fill:none;stroke-width:3;vector-effect:non-scaling-stroke;transform-box:fill-box;transform-origin:center;animation:ping 6s linear infinite}
-    .out{stroke:#8fa2f5}
-    .back{stroke:#c9a96e;stroke-dasharray:10 8}
-    .d1{animation-delay:0s}.d2{animation-delay:-2s}.d3{animation-delay:-4s}
-    @keyframes ping{0%{transform:scale(.03);opacity:.9}100%{transform:scale(1);opacity:0}}
-    @media (prefers-reduced-motion:reduce){
-      .ring{animation:none}
-      .d1{transform:scale(.33);opacity:.7}
-      .d2{transform:scale(.55);opacity:.45}
-      .d3{transform:scale(.77);opacity:.25}
-    }
-    text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
-  </style>
-  <rect width="1200" height="360" rx="18" fill="#151513"/>
-  <defs><clipPath id="c"><rect x="0" y="0" width="380" height="360"/></clipPath></defs>
-  <g clip-path="url(#c)">
-    <circle class="ring out d1" cx="120" cy="180" r="560"/>
-    <circle class="ring out d2" cx="120" cy="180" r="560"/>
-    <circle class="ring out d3" cx="120" cy="180" r="560"/>
-    <circle class="ring back d1" cx="640" cy="180" r="560"/>
-    <circle class="ring back d2" cx="640" cy="180" r="560"/>
-    <circle class="ring back d3" cx="640" cy="180" r="560"/>
-  </g>
-  <path d="M380 30Q398 180 380 330" fill="none" stroke="#4a4943" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="120" cy="180" r="9" fill="#8fa2f5"/>
-  <text x="440" y="178" font-size="84" font-weight="700" fill="#f1efe9">Aditya Mitter</text>
-  <text x="442" y="240" font-size="32" fill="#a9a69d">Software that measures the physical world.</text>
-  <text x="442" y="284" font-size="32" fill="#a9a69d">Then shows where it fails.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="t d">
+<title id="t">Aditya Mitter</title>
+<desc id="d">A sonar ping spreads from a point, bounces off a curved surface and returns as an echo. Below it a line draws itself with a tick on each peak. Text: Aditya Mitter, software that measures the physical world, then shows where it fails.</desc>
+<style>text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.ring{fill:none;stroke-width:3;vector-effect:non-scaling-stroke;transform-box:fill-box;transform-origin:center;animation:ping 12s cubic-bezier(.2,.55,.4,1) infinite}.out{stroke:#8fa2f5}.back{stroke:#c9a96e;stroke-dasharray:10 8}.d1{animation-delay:0s}.d2{animation-delay:-4s}.d3{animation-delay:-8s}@keyframes ping{0%{transform:scale(.02);opacity:.85}100%{transform:scale(1);opacity:0}}.tr{fill:none;stroke:#8fa2f5;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1;animation:draw 12s linear infinite}@keyframes draw{0%,6%{stroke-dashoffset:1;opacity:0}8%{opacity:1}78%,90%{stroke-dashoffset:0;opacity:1}98%{stroke-dashoffset:0;opacity:0}100%{stroke-dashoffset:1;opacity:0}}.tk{fill:#c9a96e}@keyframes k0{0%,24.0%{opacity:0}26.0%,88%{opacity:1}96%,100%{opacity:0}}.k0{animation:k0 12s linear infinite}@keyframes k1{0%,35.0%{opacity:0}37.0%,88%{opacity:1}96%,100%{opacity:0}}.k1{animation:k1 12s linear infinite}@keyframes k2{0%,45.9%{opacity:0}47.9%,88%{opacity:1}96%,100%{opacity:0}}.k2{animation:k2 12s linear infinite}@keyframes k3{0%,56.9%{opacity:0}58.9%,88%{opacity:1}96%,100%{opacity:0}}.k3{animation:k3 12s linear infinite}@keyframes k4{0%,67.8%{opacity:0}69.8%,88%{opacity:1}96%,100%{opacity:0}}.k4{animation:k4 12s linear infinite}@media (prefers-reduced-motion:reduce){.ring,.tr,.tk{animation:none}.tr{stroke-dashoffset:0;opacity:1}.tk{opacity:1}.d1{transform:scale(.3);opacity:.7}.d2{transform:scale(.52);opacity:.45}.d3{transform:scale(.74);opacity:.25}}</style>
+<rect width="1000" height="420" rx="18" fill="#151513"/>
+<rect x=".75" y=".75" width="998.5" height="418.5" rx="17.5" fill="none" stroke="#4a4943" stroke-width="1.5" opacity=".55"/>
+<defs><clipPath id="c"><rect width="290" height="300"/></clipPath></defs>
+<g clip-path="url(#c)"><circle class="ring out d1" cx="90" cy="150" r="400"/><circle class="ring out d2" cx="90" cy="150" r="400"/><circle class="ring out d3" cx="90" cy="150" r="400"/><circle class="ring back d1" cx="490" cy="150" r="400"/><circle class="ring back d2" cx="490" cy="150" r="400"/><circle class="ring back d3" cx="490" cy="150" r="400"/></g>
+<path d="M290 40Q308 150 290 260" fill="none" stroke="#4a4943" stroke-width="6" stroke-linecap="round"/>
+<circle cx="90" cy="150" r="8" fill="#8fa2f5"/>
+<text x="340" y="132" font-size="80" font-weight="700" fill="#f1efe9">Aditya Mitter</text>
+<text x="342" y="190" font-size="38" fill="#a9a69d">Software that measures</text>
+<text x="342" y="236" font-size="38" fill="#a9a69d">the physical world.</text>
+<text x="342" y="282" font-size="38" fill="#a9a69d">Then shows where it fails.</text>
+<path d="M40 384H960" stroke="#4a4943" stroke-width="1.5" opacity=".6"/>
+<path class="tr" pathLength="1" d="M40 384L48 384L56 384L64 384L72 384L80 384L88 384L96 384L104 384L112 384L120 384L128 384L136 384L144 384L152 384L160 384L168 384L176 384L184 384L192 384L200 384L208 383L216 379L224 374L232 368L240 361L248 355L256 350L264 347L272 346L280 348L288 352L296 358L304 364L312 371L320 377L328 381L336 384L344 384L352 381L360 375L368 368L376 360L384 352L392 345L400 340L408 338L416 339L424 342L432 348L440 356L448 364L456 372L464 378L472 383L480 384L488 383L496 379L504 373L512 366L520 358L528 351L536 346L544 343L552 342L560 344L568 348L576 355L584 362L592 369L600 376L608 381L616 384L624 384L632 381L640 375L648 367L656 359L664 351L672 343L680 338L688 336L696 337L704 341L712 347L720 355L728 363L736 371L744 378L752 382L760 384L768 383L776 379L784 372L792 365L800 357L808 350L816 344L824 341L832 340L840 342L848 347L856 353L864 361L872 369L880 376L888 381L896 384L904 384L912 384L920 384L928 384L936 384L944 384L952 384L960 384"/>
+<circle class="tk k0" cx="270" cy="330" r="5"/><circle class="tk k1" cx="410" cy="322" r="5"/><circle class="tk k2" cx="550" cy="326" r="5"/><circle class="tk k3" cx="690" cy="320" r="5"/><circle class="tk k4" cx="830" cy="324" r="5"/>
 </svg>
