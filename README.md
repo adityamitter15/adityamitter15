@@ -59,12 +59,14 @@ From its README, exactly: "Mean character error rate on 2,169 evaluation crops: 
 
 ## Also
 
-### PressPass (private)
+### [PressPass](https://github.com/adityamitter15/presspass)
 
+<a href="https://github.com/adityamitter15/presspass">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/presspass-dark.svg">
   <img alt="Schematic of the PressPass replay harness: a saved take is replayed and a playhead moves along a line, with a tick on each peak it passes." src="assets/presspass-light.svg" width="100%">
 </picture>
+</a>
 
 <sub>Schematic, not a recording.</sub>
 
@@ -73,7 +75,7 @@ An iOS app that verifies press-ups on-device with the front camera, built around
 ### More
 
 - **[DKK London](https://github.com/adityamitter15/dkk-site)**: website for Daigaku Karate Kai London, live at [goju-karate.co.uk](https://www.goju-karate.co.uk).
-- **HELIOS** (private): my one-person web studio.
+- **[HELIOS](https://github.com/adityamitter15/helios-portfolio)**: my one-person web studio, and the code for its site.
 
 **Stack:** Python, NumPy, SciPy, PyTorch, FastAPI, Swift, SwiftUI, TypeScript, JavaScript, React, Next.js, Tailwind CSS, Firebase Hosting.
 
