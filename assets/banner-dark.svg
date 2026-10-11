@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Aditya Mitter</title>
+  <desc id="d">Rings spread from a point, bounce off a curved surface and return as an echo. Next to them: Aditya Mitter, software that measures the physical world, then shows where it fails.</desc>
+  <style>
+    .ring{fill:none;stroke-width:3;vector-effect:non-scaling-stroke;transform-box:fill-box;transform-origin:center;animation:ping 6s linear infinite}
+    .out{stroke:#8fa2f5}
+    .back{stroke:#c9a96e;stroke-dasharray:10 8}
+    .d1{animation-delay:0s}.d2{animation-delay:-2s}.d3{animation-delay:-4s}
+    @keyframes ping{0%{transform:scale(.03);opacity:.9}100%{transform:scale(1);opacity:0}}
+    @media (prefers-reduced-motion:reduce){
+      .ring{animation:none}
+      .d1{transform:scale(.33);opacity:.7}
+      .d2{transform:scale(.55);opacity:.45}
+      .d3{transform:scale(.77);opacity:.25}
+    }
+    text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+  </style>
+  <rect width="1200" height="360" rx="18" fill="#151513"/>
+  <defs><clipPath id="c"><rect x="0" y="0" width="380" height="360"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <circle class="ring out d1" cx="120" cy="180" r="560"/>
+    <circle class="ring out d2" cx="120" cy="180" r="560"/>
+    <circle class="ring out d3" cx="120" cy="180" r="560"/>
+    <circle class="ring back d1" cx="640" cy="180" r="560"/>
+    <circle class="ring back d2" cx="640" cy="180" r="560"/>
+    <circle class="ring back d3" cx="640" cy="180" r="560"/>
+  </g>
+  <path d="M380 30Q398 180 380 330" fill="none" stroke="#4a4943" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="120" cy="180" r="9" fill="#8fa2f5"/>
+  <text x="440" y="178" font-size="84" font-weight="700" fill="#f1efe9">Aditya Mitter</text>
+  <text x="442" y="240" font-size="32" fill="#a9a69d">Software that measures the physical world.</text>
+  <text x="442" y="284" font-size="32" fill="#a9a69d">Then shows where it fails.</text>
+</svg>
