@@ -75,7 +75,7 @@ An iOS app that verifies press-ups on-device with the front camera, built around
 ### More
 
 - **[DKK London](https://github.com/adityamitter15/dkk-site)**: website for Daigaku Karate Kai London, live at [goju-karate.co.uk](https://www.goju-karate.co.uk).
-- **[HELIOS](https://github.com/adityamitter15/helios-portfolio)**: my one-person web studio, and the code for its site.
+- **[HELIOS](https://github.com/adityamitter15/helios-portfolio)**: my one-person web studio, live at [builtbyhelios.vercel.app](https://builtbyhelios.vercel.app).
 
 **Stack:** Python, NumPy, SciPy, PyTorch, FastAPI, Swift, SwiftUI, TypeScript, JavaScript, React, Next.js, Tailwind CSS, Firebase Hosting.
 
